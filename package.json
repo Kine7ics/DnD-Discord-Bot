@@ -6,9 +6,15 @@
   "repository": "git@github.com:Kine7ics/DnD-Discord-Bot.git",
   "author": "Kine7ics <Kinetics@github.com>",
   "private": true,
+  "scripts": {
+    "dev": "nodemon src/bot.js"
+  },
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "mongoose": "5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
