@@ -1,0 +1,14 @@
+{
+  "name": "DnD-Discord-Bot",
+  "version": "1.0.0",
+  "description": "A discord bot for my small D&D Discord server",
+  "main": "src/bot.js",
+  "repository": "git@github.com:Kine7ics/DnD-Discord-Bot.git",
+  "author": "Kine7ics <Kinetics@github.com>",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "5.11.15"
+  }
+}
